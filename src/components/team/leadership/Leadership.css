@@ -1,0 +1,15 @@
+.team-management-head{
+    height: 50px;
+    width: 300px;
+    background-color:indigo;
+    text-align: center;
+    border-radius: 10px;  
+}
+.team-management-head p{
+    padding-top: 10px;
+}
+.avtar{
+   border-radius: 50%;
+   height: 100px;
+  
+}
