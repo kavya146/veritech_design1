@@ -1,33 +1,27 @@
+import Avtar from "../avtar";
 import "./Leadership.css";
 
 const Leadership = () => {
   return (
-    <div>
+    <div
+      style={{
+        width: "50%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <h4 style={{ textAlign: "center" }}>Meet Our Team</h4>
-      <div className="team-management-head">
-        <p>Management Team</p>
+      <div className="team-management-head">Management Team</div>
+      <div className="avtar-first-line">
+        <Avtar />
+        <Avtar />
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-        }}
-      >
-        <div>
-          <img
-            className="avtar"
-            src="https://png.pngtree.com/png-clipart/20221207/ourmid/pngtree-business-man-avatar-png-image_6514640.png"
-          ></img>
-        </div>
 
-        <div>
-          {" "}
-          <img
-            className="avtar"
-            src="https://png.pngtree.com/png-clipart/20221207/ourmid/pngtree-business-man-avatar-png-image_6514640.png"
-          ></img>
-        </div>
+      <div className="avtar-second-line">
+        <Avtar />
+        <Avtar />
+        <Avtar />
       </div>
     </div>
   );

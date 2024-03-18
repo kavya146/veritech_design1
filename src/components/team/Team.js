@@ -2,7 +2,15 @@ import Leadership from "./leadership/Leadership";
 
 const Teams = () => {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "80%",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Leadership />
     </div>
   );

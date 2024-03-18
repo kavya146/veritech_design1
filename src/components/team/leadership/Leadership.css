@@ -6,10 +6,22 @@
     border-radius: 10px;  
 }
 .team-management-head p{
-    padding-top: 10px;
+    color: white;
 }
 .avtar{
    border-radius: 50%;
    height: 100px;
   
+}
+
+.avtar-first-line{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+}
+.avtar-second-line{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
 }
