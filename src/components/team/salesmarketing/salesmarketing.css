@@ -1,18 +1,15 @@
-.team-management-head{
+.team-sales-head{
     height: 50px;
     width: 300px;
     background-color:indigo;
     text-align: center;
     border-radius: 10px;  
-    color:antiquewhite;
+   color:antiquewhite;
 }
-.team-management-head p{
-    color: white;
-}
+
 .avtar{
    border-radius: 50%;
-   height: 100px;
-  
+   height: 100px;  
 }
 
 .avtar-first-line{
@@ -20,9 +17,11 @@
    align-items: center;
    justify-content: space-evenly;
    width: 100%;
+   padding-top: 40px;
 }
 .avtar-second-line{
     display: flex;
     width: 100%;
     justify-content:space-between;
+    padding-top: 40px;
 }

@@ -1,4 +1,4 @@
-const Avtar = () => {
+const Avtar = ({ url, name, position }) => {
   return (
     <div>
       {" "}
@@ -9,11 +9,8 @@ const Avtar = () => {
           alignItems: "center",
         }}
       >
-        <img
-          className="avtar"
-          src="https://png.pngtree.com/png-clipart/20221207/ourmid/pngtree-business-man-avatar-png-image_6514640.png"
-        ></img>
-        <div style={{ fontWeight: "800", fontSize: "15px" }}>Founder Name</div>
+        <img className="avtar" src={url}></img>
+        <div style={{ fontWeight: "800", fontSize: "15px" }}>{name}</div>
         <div
           style={{
             fontWeight: "100",
@@ -21,7 +18,7 @@ const Avtar = () => {
             color: "violet",
           }}
         >
-          Founder/CEO
+          {position}
         </div>
       </div>
     </div>

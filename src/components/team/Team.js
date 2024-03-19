@@ -1,4 +1,6 @@
+import Development from "./development/Development";
 import Leadership from "./leadership/Leadership";
+import Salesmarketing from "./salesmarketing/salesmarketing";
 
 const Teams = () => {
   return (
@@ -12,6 +14,8 @@ const Teams = () => {
       }}
     >
       <Leadership />
+      <Development />
+      <Salesmarketing />
     </div>
   );
 };
