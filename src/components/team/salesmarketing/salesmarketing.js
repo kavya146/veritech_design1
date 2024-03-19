@@ -3,15 +3,7 @@ import "./salesmarketing.css";
 
 const Salesmarketing = () => {
   return (
-    <div
-      style={{
-        width: "inherit",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        paddingBottom: "100px",
-      }}
-    >
+    <div className="design-sales">
       <div className="team-sales-head">Sales and Marketing Team</div>
       <div className="avtar-first-line">
         <Avtar
@@ -21,6 +13,7 @@ const Salesmarketing = () => {
           name={"Employee Name"}
           position={"Team Lead"}
         />
+
         <Avtar
           url={
             "https://www.theventuretours.com/wp-content/uploads/2020/03/avatar-icon-png-1-600x600.png"

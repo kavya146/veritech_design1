@@ -3,15 +3,7 @@ import "./Leadership.css";
 
 const Leadership = () => {
   return (
-    <div
-      style={{
-        width: "inherit",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        paddingBottom: "100px",
-      }}
-    >
+    <div className="design-lead">
       <h4 style={{ textAlign: "center" }}>Meet Our Team</h4>
       <div className="team-management-head">Management Team</div>
       <div className="leader-first-line">

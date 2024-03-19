@@ -1,3 +1,4 @@
+import React from "react";
 const Avtar = ({ url, name, position }) => {
   return (
     <div>
@@ -7,6 +8,7 @@ const Avtar = ({ url, name, position }) => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          paddingBottom: "30px",
         }}
       >
         <img className="avtar" src={url}></img>

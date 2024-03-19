@@ -1,3 +1,10 @@
+.design-sales{
+   width: inherit;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 100px;
+}
 .team-sales-head{
     height: 35px;
     width: 300px;
@@ -18,10 +25,18 @@
    justify-content: space-between;
    width: 100%;
    padding-top: 40px;
+   flex-wrap: wrap;
 }
 .avtar-second-line{
     display: flex;
     width: 100%;
     justify-content:space-evenly;
     padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+@media  screen and (max-width:530px) {
+   .design-sales{
+       width: auto;
+   }
 }

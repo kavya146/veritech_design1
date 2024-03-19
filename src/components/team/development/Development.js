@@ -2,15 +2,7 @@ import Avtar from "../avtar";
 import "./Development.css";
 const Development = () => {
   return (
-    <div
-      style={{
-        width: "inherit",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        paddingBottom: "100px",
-      }}
-    >
+    <div className="design-dev">
       <div className="team-dev-head">Development Team</div>
       <div className="dev-first-line">
         <Avtar
