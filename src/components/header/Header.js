@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="head-company-name">
-        <p>JavaTechDen</p>
+        <p>Company Name</p>
       </div>
 
       <div className="head-company-desc">
