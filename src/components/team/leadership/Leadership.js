@@ -5,7 +5,7 @@ const Leadership = () => {
   return (
     <div
       style={{
-        width: "50%",
+        width: "inherit",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -14,7 +14,7 @@ const Leadership = () => {
     >
       <h4 style={{ textAlign: "center" }}>Meet Our Team</h4>
       <div className="team-management-head">Management Team</div>
-      <div className="avtar-first-line">
+      <div className="leader-first-line">
         <Avtar
           url={"https://www.svgrepo.com/show/81103/avatar.svg"}
           name={"Founder Name"}
@@ -29,7 +29,7 @@ const Leadership = () => {
         />
       </div>
 
-      <div className="avtar-second-line">
+      <div className="leader-second-line">
         <Avtar
           url={"https://www.svgrepo.com/show/81103/avatar.svg"}
           name={"VP Name"}

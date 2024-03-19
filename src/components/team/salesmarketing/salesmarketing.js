@@ -5,7 +5,7 @@ const Salesmarketing = () => {
   return (
     <div
       style={{
-        width: "50%",
+        width: "inherit",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

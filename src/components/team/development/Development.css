@@ -1,5 +1,5 @@
 .team-dev-head{
-    height: 50px;
+    height: 35px;
     width: 300px;
     background-color:indigo;
     text-align: center;
@@ -12,16 +12,16 @@
    height: 100px;  
 }
 
-.avtar-first-line{
+.dev-first-line{
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
    width: 100%;
    padding-top: 40px;
 }
-.avtar-second-line{
+.dev-second-line{
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content:space-evenly;
     padding-top: 40px;
 }

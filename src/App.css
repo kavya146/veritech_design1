@@ -1,4 +1,8 @@
-
+.App{
+  background-color: ghostwhite;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .App-header {
   margin: 50px;

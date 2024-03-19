@@ -1,10 +1,10 @@
 .team-management-head{
-    height: 50px;
+    height: 35px;
     width: 300px;
     background-color:indigo;
     text-align: center;
     border-radius: 10px;  
-    color:antiquewhite;
+    color:antiquewhite;   
 }
 .team-management-head p{
     color: white;
@@ -15,14 +15,17 @@
   
 }
 
-.avtar-first-line{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   width: 100%;
+.leader-first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+  
 }
-.avtar-second-line{
+.leader-second-line{
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    padding-top: 40px;
 }
